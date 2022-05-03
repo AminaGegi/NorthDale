@@ -1,0 +1,46 @@
+@import "generic";
+@import "variables";
+@import "login";
+@import "mixins";
+header{
+  background-color: white;
+  background-position: bottom;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  size: 16px;
+  height: 80px;
+  width: 63%;
+  margin: 0 auto;
+  @include breakpoint(small){
+    width: calc(100vw - 20%);
+  }
+  &-logo{
+    margin-right: 41px;
+  }
+  &-login{
+    border-radius: 4px;
+    @include btn($loginBGColor);
+    padding: 14.5px 20px;
+    margin-right: 22px;
+    cursor: pointer;
+  }
+}
+
+.modal-wrapper {
+  display:none;
+  &.active{
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index:100;
+  }
+}

@@ -1,0 +1,11 @@
+@import "mixins";
+.content-container {
+  margin: 0 auto;
+  text-align: center;
+  @include breakpoint(large) {
+    width: 1216px;
+  }
+  @include breakpoint(small) {
+    width: 100%;
+  }
+}

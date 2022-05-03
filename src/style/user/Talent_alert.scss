@@ -1,0 +1,22 @@
+.talent_alert{
+top: 25%;
+  .modal-content {
+    border-radius: 30px;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+  }
+  .modal-body{
+    font-size: 18px;
+  }
+  .modal-footer{
+    width: 70%;
+    justify-content: space-around;
+  }
+  button{
+    border-radius: 8px;
+    font-weight: bold;
+    width: 141px;
+    height: 48px;
+  }
+}

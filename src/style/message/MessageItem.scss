@@ -1,0 +1,27 @@
+.message_item{
+  cursor: pointer;
+  .partner-ico{
+    align-self: start;
+  }
+  .row{
+    align-items: center;
+    padding: 1px;
+  }
+}
+.message {
+  &-close {
+    display: none;
+
+    .active {
+      display: block;
+    }
+  }
+
+  &-open {
+    display: block;
+
+    .active {
+      display: block;
+    }
+  }
+}

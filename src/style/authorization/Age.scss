@@ -1,0 +1,46 @@
+@import "../variables";
+.age{
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  &-range {
+    display: grid;
+    grid-gap: 13px;
+
+    &-diapason {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &-number__input{
+    width: 49px;
+    height: 38px;
+    border-radius: 4px;
+    margin-top: 50%;
+    margin-left: 20px;
+  }
+}
+input[type="range"]{
+  appearance: none;
+  overflow: unset;
+  width: 200px;
+  height: 6px;
+  background-color: rgba(0, 66, 105, 0.07);
+  border-radius: 4px/100%;
+
+}
+input[type='range']::-webkit-slider-thumb {
+  width: 13px;
+  appearance: none;
+  height: 13px;
+  cursor: pointer;
+  background: white;
+  border: 2px solid #84A53C;
+  //box-shadow: -205px 0 0 205px $btnGreen;
+  border-radius: 50%;
+}
+
+

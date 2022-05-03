@@ -1,0 +1,11 @@
+.talent__tree{
+  &-main__box{
+    height: calc(100vh - 80px);
+    width: 63%;
+    margin: 0 auto;
+    padding-bottom: 180px;
+    &::-webkit-scrollbar { width: 0; }
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+  }
+}

@@ -1,0 +1,17 @@
+.gender{
+  label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    input{
+      margin: 4px;
+    }
+  }
+  &-switch{
+    display: grid;
+    align-items: start;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

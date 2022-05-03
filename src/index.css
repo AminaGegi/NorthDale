@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    hr{
+        @apply my-3;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    a.active{
+        font-weight: bold;
+    }
+    a{
+        text-decoration:none;
+    }
+}

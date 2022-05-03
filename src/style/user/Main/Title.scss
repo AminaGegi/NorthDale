@@ -1,0 +1,25 @@
+.user {
+  &-notifications {
+    &-item {
+      width: 160px;
+      height: 50px;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.title{
+  margin: 20px 0 0 35px;
+  &-photo{
+    width: 230px;
+    height: 230px;
+  }
+  &-main{
+    .row{
+      padding-top: 20px;
+    }
+  }
+}
