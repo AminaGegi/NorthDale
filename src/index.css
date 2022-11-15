@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "style/variables.scss";
 
 
 @layer base{
@@ -18,5 +19,8 @@
     }
     a{
         text-decoration:none;
+    }
+    input[type='submit']{
+        background-color: #0D9CED;
     }
 }
